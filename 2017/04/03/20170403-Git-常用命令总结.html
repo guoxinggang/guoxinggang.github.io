@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="git,summary," />
 
 
 
@@ -79,16 +79,18 @@
 
 
 
-<meta name="description" content="guoxinggang 的个人技术博客，用于复习和总结所学">
-<meta property="og:type" content="website">
-<meta property="og:title" content="星海">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="Git 配置指令12$ git config --global user.name &quot;Your Name&quot;$ git config --global user.email &quot;email@example.com&quot;  配置 Git 的姓名和Email地址（自报家门） git config 命令的 –global 参数，表示是针对当前用户起作用，如果不加，那只针对当前仓库起作用  1$ git con">
+<meta name="keywords" content="git,summary">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git 常用指令总结">
+<meta property="og:url" content="http://yoursite.com/2017/04/03/20170403-Git-常用命令总结.html">
 <meta property="og:site_name" content="星海">
-<meta property="og:description" content="guoxinggang 的个人技术博客，用于复习和总结所学">
+<meta property="og:description" content="Git 配置指令12$ git config --global user.name &quot;Your Name&quot;$ git config --global user.email &quot;email@example.com&quot;  配置 Git 的姓名和Email地址（自报家门） git config 命令的 –global 参数，表示是针对当前用户起作用，如果不加，那只针对当前仓库起作用  1$ git con">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-04-03T17:43:42.246Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="星海">
-<meta name="twitter:description" content="guoxinggang 的个人技术博客，用于复习和总结所学">
+<meta name="twitter:title" content="Git 常用指令总结">
+<meta name="twitter:description" content="Git 配置指令12$ git config --global user.name &quot;Your Name&quot;$ git config --global user.email &quot;email@example.com&quot;  配置 Git 的姓名和Email地址（自报家门） git config 命令的 –global 参数，表示是针对当前用户起作用，如果不加，那只针对当前仓库起作用  1$ git con">
 
 
 
@@ -118,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/04/03/20170403-Git-常用命令总结.html"/>
 
 
 
 
 
-  <title>星海</title>
+  <title>Git 常用指令总结 | 星海</title>
   
 
 
@@ -143,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -247,151 +248,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/03/20170403-git-和-git-core-的区别和联系.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="guoxinggang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="星海">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/04/03/20170403-git-和-git-core-的区别和联系.html" itemprop="url">git 和 git-core 的区别和联系</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-03T00:00:00+08:00">
-                2017-04-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/tools/" itemprop="url" rel="index">
-                    <span itemprop="name">tools</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>​        因为从前有个软件也叫 GIT(GNU Interactive Tools)， 结果 Git 就只能叫 git-core。但是由于 Git 的名气实在太大，后来就把 GNU Interactive Tools 改成  gnuit , git-core 正式改为 git.</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -421,9 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/04/03/20170403-Git-常用命令总结.html" itemprop="url">Git 常用指令总结</a></h1>
+          <h1 class="post-title" itemprop="name headline">Git 常用指令总结</h1>
         
 
         <div class="post-meta">
@@ -495,9 +352,7 @@
       
 
       
-        
-          
-            <ol>
+        <ol>
 <li><h3 id="Git-配置指令"><a href="#Git-配置指令" class="headerlink" title="Git 配置指令"></a>Git 配置指令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git config --global user.name "Your Name"</span><br><span class="line"><span class="meta">$</span> git config --global user.email "email@example.com"</span><br></pre></td></tr></table></figure>
 <ul>
 <li>配置 Git 的姓名和Email地址（自报家门）</li>
@@ -655,8 +510,6 @@
 </li>
 </ol>
 
-          
-        
       
     </div>
     
@@ -671,187 +524,42 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/03/20170403-Git-相关名词概念解释.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="guoxinggang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="星海">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/04/03/20170403-Git-相关名词概念解释.html" itemprop="url">Git 相关名词概念解释</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-03T00:00:00+08:00">
-                2017-04-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/tools/" itemprop="url" rel="index">
-                    <span itemprop="name">tools</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/git/" rel="tag"># git</a>
           
-
+            <a href="/tags/summary/" rel="tag"># summary</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <ol>
-<li><p>版本控制</p>
-<blockquote>
-<p>能够实现自动记录文件的改动，并且允许同事协同编辑的软件。</p>
-</blockquote>
-<p>​</p>
-</li>
-<li><p>集中式版本控制系统</p>
-<blockquote>
-<p>版本库是集中存放在中央服务器的，每次工作时，通过从中央服务器下载最新的版本，工作结束后，将作业推送给中央服务器。集中式版本控制系统的最大劣势是必须联网才能工作。</p>
-</blockquote>
-<p>​</p>
-</li>
-<li><p>分布式版本控制系统</p>
-<blockquote>
-<p>分布式版本控制系统没有”中央处理器”， 每个人的电脑上都是一个完整的版本库，工作时没有必要的联网要求。多人协作时，需要将各自的修改推送给对方即可。（为了便利“交换”修改， 通常有一台充当“中央服务器”的电脑，但它不是必要的）。</p>
-</blockquote>
-<p>​</p>
-</li>
-<li><p>版本库 （Repository)</p>
-<blockquote>
-<p>版本库又名仓库，英文名 repository . 相当于一个目录，这个目录中的所有文件都可以被 Git 管理起来，每个文件的修改，删除，Git 都能够追踪，以便任何时候都可以追踪历史，或者在将来某个时刻可以”还原“。</p>
-</blockquote>
-<p>​</p>
-</li>
-<li><p>工作区（Working Directory）</p>
-<blockquote>
-<p>本地工作的电脑中能够看到的目录；在目录中曾经运行过 <em>git init</em> 命令。</p>
-</blockquote>
-<p>​</p>
-</li>
-</ol>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/04/03/20170403-Git-相关名词概念解释.html" rel="next" title="Git 相关名词概念解释">
+                <i class="fa fa-chevron-left"></i> Git 相关名词概念解释
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/04/03/20170403-git-和-git-core-的区别和联系.html" rel="prev" title="git 和 git-core 的区别和联系">
+                git 和 git-core 的区别和联系 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -861,10 +569,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -872,6 +581,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -892,8 +605,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -953,6 +675,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Git-配置指令"><span class="nav-number">1.</span> <span class="nav-text">Git 配置指令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git-基本操作指令"><span class="nav-number">2.</span> <span class="nav-text">Git 基本操作指令</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1086,6 +824,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
