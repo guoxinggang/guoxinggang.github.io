@@ -262,6 +262,179 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/03/20170403-Git-相关名词概念解释.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="guoxinggang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="星海">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/04/03/20170403-Git-相关名词概念解释.html" itemprop="url">Git 相关名词概念解释</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-03T00:00:00+08:00">
+                2017-04-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/tools/" itemprop="url" rel="index">
+                    <span itemprop="name">tools</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p>版本控制</p>
+<blockquote>
+<p>能够实现自动记录文件的改动，并且允许同事协同编辑的软件。</p>
+</blockquote>
+<p>​</p>
+</li>
+<li><p>集中式版本控制系统</p>
+<blockquote>
+<p>版本库是集中存放在中央服务器的，每次工作时，通过从中央服务器下载最新的版本，工作结束后，将作业推送给中央服务器。集中式版本控制系统的最大劣势是必须联网才能工作。</p>
+</blockquote>
+<p>​</p>
+</li>
+<li><p>分布式版本控制系统</p>
+<blockquote>
+<p>分布式版本控制系统没有”中央处理器”， 每个人的电脑上都是一个完整的版本库，工作时没有必要的联网要求。多人协作时，需要将各自的修改推送给对方即可。（为了便利“交换”修改， 通常有一台充当“中央服务器”的电脑，但它不是必要的）。</p>
+</blockquote>
+<p>​</p>
+</li>
+<li><p>版本库 （Repository)</p>
+<blockquote>
+<p>版本库又名仓库，英文名 repository . 相当于一个目录，这个目录中的所有文件都可以被 Git 管理起来，每个文件的修改，删除，Git 都能够追踪，以便任何时候都可以追踪历史，或者在将来某个时刻可以”还原“。</p>
+</blockquote>
+<p>​</p>
+</li>
+<li><p>工作区（Working Directory）</p>
+<blockquote>
+<p>本地工作的电脑中能够看到的目录；在目录中曾经运行过 <em>git init</em> 命令。</p>
+</blockquote>
+<p>​</p>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/03/20170403-Git-常用命令总结.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -355,7 +528,7 @@
       
         
           
-            <h3 id="Git-配置指令"><a href="#Git-配置指令" class="headerlink" title="Git 配置指令"></a>Git 配置指令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git config --global user.name "Your Name"</span><br><span class="line"><span class="meta">$</span> git config --global user.email "email@example.com"</span><br></pre></td></tr></table></figure>
+            <h1 id="Git-配置指令"><a href="#Git-配置指令" class="headerlink" title="Git 配置指令"></a>Git 配置指令</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git config --global user.name "Your Name"</span><br><span class="line"><span class="meta">$</span> git config --global user.email "email@example.com"</span><br></pre></td></tr></table></figure>
 <ul>
 <li>配置 Git 的姓名和Email地址（自报家门）</li>
 <li><em>git config</em> 命令的 <em>–global</em> 参数，表示是针对当前用户起作用，如果不加，那只针对当前仓库起作用</li>
@@ -368,7 +541,7 @@
 <ul>
 <li>Git 命令别名设置</li>
 </ul>
-<h3 id="Git-基本操作指令"><a href="#Git-基本操作指令" class="headerlink" title="Git 基本操作指令"></a>Git 基本操作指令</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git init</span><br></pre></td></tr></table></figure>
+<h1 id="Git-基本操作指令"><a href="#Git-基本操作指令" class="headerlink" title="Git 基本操作指令"></a>Git 基本操作指令</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git init</span><br></pre></td></tr></table></figure>
 <ul>
 <li>把当前目录变成 Git 可以管理的仓库</li>
 </ul>
@@ -404,7 +577,7 @@
 <li>在 Git 中，用 HEAD 表示当前版本，上一个版本就是 HEAD^（或 HEAD~1），上上个版本就是 HEAD^^（或 HEAD~2）。</li>
 <li><em>–hard</em> 参数的意义 ？</li>
 </ul>
-<p>###Git 撤销修改指令</p>
+<p>#Git 撤销修改指令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git checkout --&lt;filename&gt;</span><br></pre></td></tr></table></figure>
 <ul>
 <li>把文件在工作区的修改全部撤销（修改工作区）</li>
@@ -413,7 +586,7 @@
 <ul>
 <li>把暂存区的修改撤销（unstage)，重新放回工作区（修改暂存区）</li>
 </ul>
-<p>###Git 删除文件指令</p>
+<p>#Git 删除文件指令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> rm &lt;filename&gt;</span><br></pre></td></tr></table></figure>
 <ul>
 <li>工作区操作指令，会造成工作区和版本库的不一致性。存在两种处理方法</li>
@@ -424,10 +597,10 @@
 </ul>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git checkout -- &lt;filename&gt;</span><br></pre></td></tr></table></figure>
 <ul>
-<li>处理方法二，还原。</li>
-<li><em>git checkout</em> 其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都不可以”一键还原“。</li>
+<li>处理方法二，还原</li>
+<li><em>git checkout</em> 其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都不可以”一键还原“</li>
 </ul>
-<p>###Git 远程仓库指令</p>
+<p>#Git 远程仓库指令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> ssh-keygen -t rsa -C "youremail@example.com"</span><br></pre></td></tr></table></figure>
 <ul>
 <li>创建 SSH Key</li>
@@ -453,7 +626,7 @@
 <ul>
 <li>抓取最新提交，然后在本地合并，解决冲突，再推送</li>
 </ul>
-<p>###Git 分支操作指令</p>
+<p>#Git 分支操作指令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git checkout -b &lt;branchname&gt;</span><br><span class="line"><span class="meta">#</span> 同以下两条指令等价</span><br><span class="line"><span class="meta">$</span> git branch &lt;branchname&gt;        #创建</span><br><span class="line"><span class="meta">$</span> git checkout &lt;branchname&gt;      #切换</span><br></pre></td></tr></table></figure>
 <ul>
 <li><em>git checkout</em> 命令加上 <em>-b</em> 参数表示创建并切换</li>
@@ -494,7 +667,7 @@
 <ul>
 <li>建立本地分支和远程分支的关联</li>
 </ul>
-<p>###Git 标签管理指令</p>
+<p>#Git 标签管理指令</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span> git branch</span><br><span class="line"><span class="meta">$</span> git checkout master      #切换的需要打标签的分支</span><br><span class="line"><span class="meta">$</span> git tag &lt;tagname&gt;        #打一个新标签</span><br><span class="line"><span class="meta">$</span> git tag &lt;tagname&gt; &lt;commit id&gt;   #根据版本号打标签</span><br><span class="line"><span class="meta">$</span> git tag -a &lt;tagname&gt; -m "&lt;instructions&gt;" &lt;commit id&gt;    #创建带有说明的标签</span><br><span class="line"><span class="meta">$</span> git tag                  #查看所有标签</span><br><span class="line"><span class="meta">$</span> git show &lt;tagname&gt;       #查看标签信息</span><br><span class="line"><span class="meta">$</span> git tag -d &lt;tagname&gt;         #删除标签</span><br><span class="line"><span class="meta">$</span> git push origin &lt;tagname&gt;    #推送某个标签到远程</span><br><span class="line"><span class="meta">$</span> git push origin --tags       #一次性推送全部尚未推送到远程的本地标签</span><br><span class="line"><span class="meta">#</span>## 删除远程标签</span><br><span class="line"><span class="meta">$</span> git tag -d &lt;tagname&gt;        #删除本地标签</span><br><span class="line"><span class="meta">$</span> git push origin :ref/tags/&lt;tagname&gt;       #删除对应远程标签</span><br></pre></td></tr></table></figure>
 <p>​</p>
 
@@ -639,179 +812,6 @@
         
           
             <p>​        因为从前有个软件也叫 GIT(GNU Interactive Tools)， 结果 Git 就只能叫 git-core。但是由于 Git 的名气实在太大，后来就把 GNU Interactive Tools 改成  gnuit , git-core 正式改为 git.</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/04/03/20170403-Git-相关名词概念解释.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="guoxinggang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="星海">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/04/03/20170403-Git-相关名词概念解释.html" itemprop="url">Git 相关名词概念解释</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-03T00:00:00+08:00">
-                2017-04-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/tools/" itemprop="url" rel="index">
-                    <span itemprop="name">tools</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <ol>
-<li><p>版本控制</p>
-<blockquote>
-<p>能够实现自动记录文件的改动，并且允许同事协同编辑的软件。</p>
-</blockquote>
-<p>​</p>
-</li>
-<li><p>集中式版本控制系统</p>
-<blockquote>
-<p>版本库是集中存放在中央服务器的，每次工作时，通过从中央服务器下载最新的版本，工作结束后，将作业推送给中央服务器。集中式版本控制系统的最大劣势是必须联网才能工作。</p>
-</blockquote>
-<p>​</p>
-</li>
-<li><p>分布式版本控制系统</p>
-<blockquote>
-<p>分布式版本控制系统没有”中央处理器”， 每个人的电脑上都是一个完整的版本库，工作时没有必要的联网要求。多人协作时，需要将各自的修改推送给对方即可。（为了便利“交换”修改， 通常有一台充当“中央服务器”的电脑，但它不是必要的）。</p>
-</blockquote>
-<p>​</p>
-</li>
-<li><p>版本库 （Repository)</p>
-<blockquote>
-<p>版本库又名仓库，英文名 repository . 相当于一个目录，这个目录中的所有文件都可以被 Git 管理起来，每个文件的修改，删除，Git 都能够追踪，以便任何时候都可以追踪历史，或者在将来某个时刻可以”还原“。</p>
-</blockquote>
-<p>​</p>
-</li>
-<li><p>工作区（Working Directory）</p>
-<blockquote>
-<p>本地工作的电脑中能够看到的目录；在目录中曾经运行过 <em>git init</em> 命令。</p>
-</blockquote>
-<p>​</p>
-</li>
-</ol>
 
           
         
