@@ -11,9 +11,10 @@ tags:
 
 1. # [题目](http://codeforces.com/contest/961/problem/B)
 
-![](Educational-Codeforces-Round-41-B-Lecture-Sleep-md\cf961b_1.png)
+   {% asset_img Educational-Codeforces-Round-41-B-Lecture-Sleep-md\cf961b_1.png %}
 
-![](Educational-Codeforces-Round-41-B-Lecture-Sleep-md\cf961b_2.png)
+   {% asset_img Educational-Codeforces-Round-41-B-Lecture-Sleep-md\cf961b_2.png %}
+
 
 2. # 解析
 
