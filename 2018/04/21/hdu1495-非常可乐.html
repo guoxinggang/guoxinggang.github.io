@@ -79,21 +79,21 @@
 
 
 
-<meta name="description" content="1.题目  2. 解析2.1bfs 已知 S,  N,  M 初始状态(s==S, n==0, m==0) –&amp;gt; 结束状态(s==S&amp;gt;&amp;gt;1, n==S&amp;gt;&amp;gt;1, m==0); (其中n &amp;gt;= m) 转移方式六种: s–&amp;gt;n, s–&amp;gt;m, n–&amp;gt;s, n–&amp;gt;m, m–&amp;gt;s, m–&amp;gt;n 求最短转移次数，所以使用BFS模拟 n 和 m">
+<meta name="description" content="1.题目  2. 解析2.1 bfs 已知 S,  N,  M 初始状态(s==S, n==0, m==0) –&amp;gt; 结束状态(s==S&amp;gt;&amp;gt;1, n==S&amp;gt;&amp;gt;1, m==0); (其中n &amp;gt;= m) 转移方式六种: s–&amp;gt;n, s–&amp;gt;m, n–&amp;gt;s, n–&amp;gt;m, m–&amp;gt;s, m–&amp;gt;n 求最短转移次数，所以使用BFS模拟 n 和">
 <meta name="keywords" content="bfs,numbertheory">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hdu1495-非常可乐">
 <meta property="og:url" content="http://yoursite.com/2018/04/21/hdu1495-非常可乐.html">
 <meta property="og:site_name" content="星海">
-<meta property="og:description" content="1.题目  2. 解析2.1bfs 已知 S,  N,  M 初始状态(s==S, n==0, m==0) –&amp;gt; 结束状态(s==S&amp;gt;&amp;gt;1, n==S&amp;gt;&amp;gt;1, m==0); (其中n &amp;gt;= m) 转移方式六种: s–&amp;gt;n, s–&amp;gt;m, n–&amp;gt;s, n–&amp;gt;m, m–&amp;gt;s, m–&amp;gt;n 求最短转移次数，所以使用BFS模拟 n 和 m">
+<meta property="og:description" content="1.题目  2. 解析2.1 bfs 已知 S,  N,  M 初始状态(s==S, n==0, m==0) –&amp;gt; 结束状态(s==S&amp;gt;&amp;gt;1, n==S&amp;gt;&amp;gt;1, m==0); (其中n &amp;gt;= m) 转移方式六种: s–&amp;gt;n, s–&amp;gt;m, n–&amp;gt;s, n–&amp;gt;m, m–&amp;gt;s, m–&amp;gt;n 求最短转移次数，所以使用BFS模拟 n 和">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://yoursite.com/2018/04/21/hdu1495-非常可乐/a.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/04/21/hdu1495-非常可乐/b.jpg">
 <meta property="og:image" content="http://yoursite.com/2018/04/21/hdu1495-非常可乐/c.jpg">
-<meta property="og:updated_time" content="2018-04-21T15:20:18.828Z">
+<meta property="og:updated_time" content="2018-04-21T15:23:32.830Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hdu1495-非常可乐">
-<meta name="twitter:description" content="1.题目  2. 解析2.1bfs 已知 S,  N,  M 初始状态(s==S, n==0, m==0) –&amp;gt; 结束状态(s==S&amp;gt;&amp;gt;1, n==S&amp;gt;&amp;gt;1, m==0); (其中n &amp;gt;= m) 转移方式六种: s–&amp;gt;n, s–&amp;gt;m, n–&amp;gt;s, n–&amp;gt;m, m–&amp;gt;s, m–&amp;gt;n 求最短转移次数，所以使用BFS模拟 n 和 m">
+<meta name="twitter:description" content="1.题目  2. 解析2.1 bfs 已知 S,  N,  M 初始状态(s==S, n==0, m==0) –&amp;gt; 结束状态(s==S&amp;gt;&amp;gt;1, n==S&amp;gt;&amp;gt;1, m==0); (其中n &amp;gt;= m) 转移方式六种: s–&amp;gt;n, s–&amp;gt;m, n–&amp;gt;s, n–&amp;gt;m, m–&amp;gt;s, m–&amp;gt;n 求最短转移次数，所以使用BFS模拟 n 和">
 <meta name="twitter:image" content="http://yoursite.com/2018/04/21/hdu1495-非常可乐/a.jpg">
 
 
@@ -369,7 +369,7 @@
       
         <h1 id="1-题目"><a href="#1-题目" class="headerlink" title="1.题目"></a>1.<a href="http://acm.hdu.edu.cn/showproblem.php?pid=1495" target="_blank" rel="noopener">题目</a></h1><img src="/2018/04/21/hdu1495-非常可乐/a.jpg">
 <img src="/2018/04/21/hdu1495-非常可乐/b.jpg">
-<h1 id="2-解析"><a href="#2-解析" class="headerlink" title="2. 解析"></a>2. 解析</h1><h2 id="2-1bfs"><a href="#2-1bfs" class="headerlink" title="2.1bfs"></a>2.1bfs</h2><ul>
+<h1 id="2-解析"><a href="#2-解析" class="headerlink" title="2. 解析"></a>2. 解析</h1><h2 id="2-1-bfs"><a href="#2-1-bfs" class="headerlink" title="2.1 bfs"></a>2.1 bfs</h2><ul>
 <li>已知 S,  N,  M</li>
 <li>初始状态(s==S, n==0, m==0) –&gt; 结束状态(s==S&gt;&gt;1, n==S&gt;&gt;1, m==0); (其中n &gt;= m)</li>
 <li>转移方式六种: s–&gt;n, s–&gt;m, n–&gt;s, n–&gt;m, m–&gt;s, m–&gt;n</li>
@@ -551,7 +551,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-题目"><span class="nav-number">1.</span> <span class="nav-text">1.题目</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-解析"><span class="nav-number">2.</span> <span class="nav-text">2. 解析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1bfs"><span class="nav-number">2.1.</span> <span class="nav-text">2.1bfs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-数论（保留）"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 数论（保留）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-代码"><span class="nav-number">3.</span> <span class="nav-text">3. 代码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#3-1-bfs实现"><span class="nav-number">3.1.</span> <span class="nav-text">3.1 bfs实现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-2-数论推导实现"><span class="nav-number">3.2.</span> <span class="nav-text">3.2 数论推导实现</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-题目"><span class="nav-number">1.</span> <span class="nav-text">1.题目</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-解析"><span class="nav-number">2.</span> <span class="nav-text">2. 解析</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-bfs"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 bfs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-数论（保留）"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 数论（保留）</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-代码"><span class="nav-number">3.</span> <span class="nav-text">3. 代码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#3-1-bfs实现"><span class="nav-number">3.1.</span> <span class="nav-text">3.1 bfs实现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-2-数论推导实现"><span class="nav-number">3.2.</span> <span class="nav-text">3.2 数论推导实现</span></a></li></ol></li></ol></div>
             
 
           </div>
