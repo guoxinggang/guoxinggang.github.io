@@ -14,7 +14,7 @@ tags:
 
 {% asset_img b.jpg %}
 
-{% asset)img c.jpg %}
+{% asset_img c.jpg %}
 
 # 2. 解析
 
