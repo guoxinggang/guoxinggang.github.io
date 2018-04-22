@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="dfs," />
+  <meta name="keywords" content="bfs," />
 
 
 
@@ -79,21 +79,21 @@
 
 
 
-<meta name="description" content="1.题目  2.解析 按行搜索，每行选择放和不放。 如果选择放，按列标记。  3.代码12345678910111213141516171819202122232425262728293031323334//#include &amp;lt;bits/stdc++.h&amp;gt;#include &amp;lt;cstdio&amp;gt;#include &amp;lt;cstring&amp;gt;using namespace std">
-<meta name="keywords" content="dfs">
+<meta name="description" content="1. 题目  2. 解析 题目求 Y 和 M 到达同一个 @ 的 最短时间（步数 * 11), 选择两次bfs实现 坑点:  存在 @  不可达  3. 代码1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556#include &amp;lt;bits/">
+<meta name="keywords" content="bfs">
 <meta property="og:type" content="article">
-<meta property="og:title" content="poj1321_棋盘问题">
-<meta property="og:url" content="http://yoursite.com/2018/04/18/poj1321-棋盘问题.html">
+<meta property="og:title" content="hdu2612-Find-a-way">
+<meta property="og:url" content="http://yoursite.com/2018/04/22/hdu2612-Find-a-way.html">
 <meta property="og:site_name" content="星海">
-<meta property="og:description" content="1.题目  2.解析 按行搜索，每行选择放和不放。 如果选择放，按列标记。  3.代码12345678910111213141516171819202122232425262728293031323334//#include &amp;lt;bits/stdc++.h&amp;gt;#include &amp;lt;cstdio&amp;gt;#include &amp;lt;cstring&amp;gt;using namespace std">
+<meta property="og:description" content="1. 题目  2. 解析 题目求 Y 和 M 到达同一个 @ 的 最短时间（步数 * 11), 选择两次bfs实现 坑点:  存在 @  不可达  3. 代码1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556#include &amp;lt;bits/">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/2018/04/18/poj1321-棋盘问题/a.jpg">
-<meta property="og:image" content="http://yoursite.com/2018/04/18/poj1321-棋盘问题/b.jpg">
-<meta property="og:updated_time" content="2018-04-17T16:38:58.172Z">
+<meta property="og:image" content="http://yoursite.com/2018/04/22/hdu2612-Find-a-way/a.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/04/22/hdu2612-Find-a-way/b.jpg">
+<meta property="og:updated_time" content="2018-04-22T05:05:23.916Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="poj1321_棋盘问题">
-<meta name="twitter:description" content="1.题目  2.解析 按行搜索，每行选择放和不放。 如果选择放，按列标记。  3.代码12345678910111213141516171819202122232425262728293031323334//#include &amp;lt;bits/stdc++.h&amp;gt;#include &amp;lt;cstdio&amp;gt;#include &amp;lt;cstring&amp;gt;using namespace std">
-<meta name="twitter:image" content="http://yoursite.com/2018/04/18/poj1321-棋盘问题/a.jpg">
+<meta name="twitter:title" content="hdu2612-Find-a-way">
+<meta name="twitter:description" content="1. 题目  2. 解析 题目求 Y 和 M 到达同一个 @ 的 最短时间（步数 * 11), 选择两次bfs实现 坑点:  存在 @  不可达  3. 代码1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556#include &amp;lt;bits/">
+<meta name="twitter:image" content="http://yoursite.com/2018/04/22/hdu2612-Find-a-way/a.jpg">
 
 
 
@@ -123,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/18/poj1321-棋盘问题.html"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/22/hdu2612-Find-a-way.html"/>
 
 
 
 
 
-  <title>poj1321_棋盘问题 | 星海</title>
+  <title>hdu2612-Find-a-way | 星海</title>
   
 
 
@@ -266,7 +266,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/18/poj1321-棋盘问题.html">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/22/hdu2612-Find-a-way.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="guoxinggang">
@@ -283,7 +283,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">poj1321_棋盘问题</h1>
+          <h1 class="post-title" itemprop="name headline">hdu2612-Find-a-way</h1>
         
 
         <div class="post-meta">
@@ -295,8 +295,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-18T00:23:44+08:00">
-                2018-04-18
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-22T12:55:41+08:00">
+                2018-04-22
               </time>
             
 
@@ -329,8 +329,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/acm/POJ/" itemprop="url" rel="index">
-                    <span itemprop="name">POJ</span>
+                  <a href="/categories/acm/HDU/" itemprop="url" rel="index">
+                    <span itemprop="name">HDU</span>
                   </a>
                 </span>
 
@@ -366,13 +366,13 @@
       
 
       
-        <h1 id="1-题目"><a href="#1-题目" class="headerlink" title="1.题目"></a>1.<a href="http://poj.org/problem?id=1321" target="_blank" rel="noopener">题目</a></h1><img src="/2018/04/18/poj1321-棋盘问题/a.jpg">
-<img src="/2018/04/18/poj1321-棋盘问题/b.jpg">
-<h1 id="2-解析"><a href="#2-解析" class="headerlink" title="2.解析"></a>2.解析</h1><ul>
-<li>按行搜索，每行选择放和不放。</li>
-<li>如果选择放，按列标记。</li>
+        <h1 id="1-题目"><a href="#1-题目" class="headerlink" title="1. 题目"></a>1. <a href="http://acm.hdu.edu.cn/showproblem.php?pid=2612" target="_blank" rel="noopener">题目</a></h1><img src="/2018/04/22/hdu2612-Find-a-way/a.jpg">
+<img src="/2018/04/22/hdu2612-Find-a-way/b.jpg">
+<h1 id="2-解析"><a href="#2-解析" class="headerlink" title="2. 解析"></a>2. 解析</h1><ul>
+<li>题目求 Y 和 M 到达同一个 @ 的 最短时间（步数 * 11), 选择两次bfs实现</li>
+<li>坑点:  存在 @  不可达</li>
 </ul>
-<h1 id="3-代码"><a href="#3-代码" class="headerlink" title="3.代码"></a>3.代码</h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//#include &lt;bits/stdc++.h&gt;</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> n, k, vis[<span class="number">10</span>], amount; </span><br><span class="line"><span class="keyword">char</span> mp[<span class="number">10</span>][<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> raw, <span class="keyword">int</span> k)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (raw &gt;= n &amp;&amp; k != <span class="number">0</span>) <span class="keyword">return</span>;</span><br><span class="line">    <span class="keyword">if</span> (n-raw&lt;k) <span class="keyword">return</span>;</span><br><span class="line">    <span class="keyword">if</span> (k == <span class="number">0</span>) &#123;</span><br><span class="line">        amount ++;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; ++ i) &#123;</span><br><span class="line">        <span class="keyword">if</span> (vis[i] || mp[raw][i] == <span class="string">'.'</span>) <span class="keyword">continue</span>;</span><br><span class="line">        vis[i] = <span class="number">1</span>;</span><br><span class="line">        dfs(raw+<span class="number">1</span>, k<span class="number">-1</span>);</span><br><span class="line">        vis[i] = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    dfs(raw+<span class="number">1</span>, k);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d %d"</span>, &amp;n, &amp;k) &amp;&amp; n + k != <span class="number">-2</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; ++ i) <span class="built_in">scanf</span>(<span class="string">"%s"</span>, mp[i]);</span><br><span class="line">        <span class="built_in">memset</span>(vis, <span class="number">0</span>, <span class="keyword">sizeof</span>(vis));</span><br><span class="line">        amount = <span class="number">0</span>;</span><br><span class="line">        dfs(<span class="number">0</span>, k);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, amount);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="3-代码"><a href="#3-代码" class="headerlink" title="3. 代码"></a>3. 代码</h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> N = <span class="number">222</span>;</span><br><span class="line"><span class="keyword">int</span> n, m;</span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">node</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> i, j, step;</span><br><span class="line">&#125;Node;</span><br><span class="line">Node Y, M;</span><br><span class="line"><span class="keyword">char</span> mp[N][N];</span><br><span class="line"><span class="keyword">int</span> vis[N][N][<span class="number">2</span>], ti[N][N];</span><br><span class="line"><span class="keyword">int</span> dir[][<span class="number">2</span>]=&#123;<span class="number">0</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">-1</span>,<span class="number">0</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dfs</span><span class="params">(Node st, <span class="keyword">int</span> k)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">queue</span>&lt;Node&gt; que;</span><br><span class="line">    que.push(st);</span><br><span class="line">    vis[st.i][st.j][k] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span> (!que.empty()) &#123;</span><br><span class="line">        Node fro = que.front(); que.pop();</span><br><span class="line">        <span class="keyword">if</span> (mp[fro.i][fro.j]==<span class="string">'@'</span>) ti[fro.i][fro.j] += fro.step;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">4</span>; ++ i) &#123;</span><br><span class="line">            <span class="keyword">int</span> ni = fro.i + dir[i][<span class="number">0</span>];</span><br><span class="line">            <span class="keyword">int</span> nj = fro.j + dir[i][<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">if</span>(ni &gt;= <span class="number">0</span> &amp;&amp; ni &lt; n &amp;&amp; nj &gt;= <span class="number">0</span> &amp;&amp; nj &lt; m &amp;&amp; !vis[ni][nj][k] &amp;&amp; mp[ni][nj] != <span class="string">'#'</span>) &#123;</span><br><span class="line">                vis[ni][nj][k] = <span class="number">1</span>;</span><br><span class="line">                que.push(Node&#123;ni, nj, fro.step+<span class="number">1</span>&#125;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">while</span> (<span class="built_in">scanf</span>(<span class="string">"%d %d"</span>, &amp;n, &amp;m)!=EOF) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; ++ i) &#123;</span><br><span class="line">            <span class="built_in">scanf</span>(<span class="string">"%s"</span>, mp[i]);</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; m; ++ j) &#123;</span><br><span class="line">                <span class="keyword">if</span> (mp[i][j] == <span class="string">'Y'</span>) Y = Node&#123;i, j, <span class="number">0</span>&#125;;</span><br><span class="line">                <span class="keyword">if</span> (mp[i][j] == <span class="string">'M'</span>) M = Node&#123;i, j, <span class="number">0</span>&#125;;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">memset</span>(ti, <span class="number">0</span>, <span class="keyword">sizeof</span>(ti));</span><br><span class="line">        <span class="built_in">memset</span>(vis, <span class="number">0</span>, <span class="keyword">sizeof</span>(vis));</span><br><span class="line">        dfs(Y, <span class="number">0</span>);</span><br><span class="line">        dfs(M, <span class="number">1</span>);</span><br><span class="line">        <span class="keyword">int</span> r = <span class="number">0x3f3f3f3f</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; ++ i) &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; m; ++ j) &#123;</span><br><span class="line">                <span class="keyword">if</span> (mp[i][j] == <span class="string">'@'</span> &amp;&amp; vis[i][j][<span class="number">0</span>]+vis[i][j][<span class="number">1</span>]!=<span class="number">0</span>) r = min(r, ti[i][j]);   <span class="comment">//@必须可达</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, r * <span class="number">11</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -390,7 +390,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/dfs/" rel="tag"># dfs</a>
+            <a href="/tags/bfs/" rel="tag"># bfs</a>
           
         </div>
       
@@ -403,8 +403,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/05/Educational-Codeforces-Round-41-B-Lecture-Sleep.html" rel="next" title="Educational-Codeforces-Round-41--B-Lecture-Sleep">
-                <i class="fa fa-chevron-left"></i> Educational-Codeforces-Round-41--B-Lecture-Sleep
+              <a href="/2018/04/21/poj2251-Dungeon-Master.html" rel="next" title="poj2251-Dungeon-Master">
+                <i class="fa fa-chevron-left"></i> poj2251-Dungeon-Master
               </a>
             
           </div>
@@ -412,10 +412,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/21/poj3984-迷宫问题.html" rel="prev" title="poj3984-迷宫问题">
-                poj3984-迷宫问题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -547,7 +543,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-题目"><span class="nav-number">1.</span> <span class="nav-text">1.题目</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-解析"><span class="nav-number">2.</span> <span class="nav-text">2.解析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-代码"><span class="nav-number">3.</span> <span class="nav-text">3.代码</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-题目"><span class="nav-number">1.</span> <span class="nav-text">1. 题目</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-解析"><span class="nav-number">2.</span> <span class="nav-text">2. 解析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-代码"><span class="nav-number">3.</span> <span class="nav-text">3. 代码</span></a></li></ol></div>
             
 
           </div>
