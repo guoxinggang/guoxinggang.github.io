@@ -10,7 +10,9 @@ tags:
 
 # 1.[题目](https://vjudge.net/contest/223468#problem/J)
 
-{% asset_img a.pdf %}
+{% asset_img a.jpg %}
+
+{% asset_img b.jpg %}
 
 # 2.解析
 
@@ -41,13 +43,14 @@ void bfs()
     queue<node> que;
     for (int i = 0; i < r; ++ i) {
         for (int j = 0; j < c; ++ j) {
-            if (mp[i][j] == 'J') J = node(i, j, 0, 0);
+            if (mp[i][j] == 'J') J = node(i, j, 0, 0), mp[i][j] = '.';
             if (mp[i][j] == 'F') que.push(node(i, j, 0, 1));
             step[i][j] = INF;
         }
     }
     step[J.x][J.y] = 0;
     que.push(J);
+
     while (!que.empty()) {
         node fro = que.front(); que.pop();
         if(fro.f == 0 && (fro.x == 0 || fro.x == r-1 || fro.y == 0 || fro.y == c-1)) {
